@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:edit="clr-namespace:HealthPing.Views.EditPingList"
+                    xmlns:view="clr-namespace:HealthPing.Views.ViewPingList"
+                    >
+    <DataTemplate DataType="{x:Type edit:EditPingListViewModel}">
+        <edit:EditPingListView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type view:ViewPingListViewModel}">
+        <view:ViewPingListView/>
+    </DataTemplate>
+</ResourceDictionary>
